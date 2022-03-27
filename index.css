@@ -548,6 +548,7 @@ footer{
     
 }
 
+
 .section-text {
     width: 100%;
     padding: 4rem;
@@ -739,6 +740,14 @@ footer{
     grid-row: 1/4;
     margin-left: 30px;
     margin-top: 120px; 
+}
+
+.image10 h2{
+    font-size: 0.9rem;
+}
+
+.section-text{
+   padding: 1.6rem;
 }
 
 
