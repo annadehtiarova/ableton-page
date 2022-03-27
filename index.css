@@ -80,11 +80,15 @@ ul li a.small, .small {
 .header-image img {
     width: 100%;
     margin: 0 auto;
-    position: relative;
-    text-align: center;
     background-size: cover;
 
     
+}
+
+.header-image{
+    position: relative;
+    text-align: center;
+
 }
 
 .header-image .centered{
@@ -455,12 +459,12 @@ section p{
 }
 
 .header-image .centered{
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 600;
     position: absolute;
     left: 50%;
-    top: 30%;
-    transform: translate(-50%, -30%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -604,12 +608,12 @@ section p{
 
 
 .header-image .centered{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
     position: absolute;
     left: 50%;
-    top: 30%;
-    transform: translate(-50%, -30%);
+    top: 50%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -749,8 +753,6 @@ footer{
 .section-text{
    padding: 2rem;
 }
-
-
 
 
 }
