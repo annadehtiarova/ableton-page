@@ -636,26 +636,27 @@ footer{
 .section-1 .grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr); 
-    grid-template-rows: repeat(4, 1fr); 
-    gap: 0px 70px;
+    grid-template-rows: repeat(6, 1fr); 
+    gap: 0px 80px;
     grid-auto-flow: row;
      
 }
 
 .grid-1{
-    grid-column: 2/ 8;
-    grid-row: 1 / 5;
+    grid-column: 3/ 8;
+    grid-row: 1 / 7;
 }
 
 .grid-2{
     grid-column: 1/ 4;
-    grid-row: 1/ 5;
+    grid-row: 2/6;
 }
 
 .grid-3{
     grid-column: 4/7;
-    grid-row: 2/4;
+    grid-row: 3/5;
 } 
+
 
 .section-3 .grid{
     display: grid;
